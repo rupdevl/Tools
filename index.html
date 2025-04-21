@@ -481,16 +481,18 @@
             
             // In a real app, you would send the data to your server here
             alert('Account created successfully! Redirecting...');
-            // window.location.href = '/dashboard.html';
+            // window.location.href = '/dev-enhance.html';
         });
         
-        document.getElementById('login-form').addEventListener('submit', (e) => {
-            e.preventDefault();
-            
-            // In a real app, you would send the data to your server here
-            alert('Logged in successfully! Redirecting...');
-            // window.location.href = '/dashboard.html';
+       document.getElementById('login-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    // Aapka server validation ka code yahan aayega (future me)
+
+    // Successful login pe tools page par bhejne ke liye:
+    window.location.href = "dev-enhance.html";
         });
+
     </script>
 </body>
 </html>
